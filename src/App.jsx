@@ -6,13 +6,12 @@ import Contact from "./pages/Contact";
 import Navbar from "./components/Navbar";
 import Campaign from "./pages/Campaign";
 import Login from "./pages/Login";
-import SignUp from "./pages/SignUp";
 import Dashboard from "./pages/Dashboard";
 import Footer from "./components/Footer";
 
 const App = () => {
   return (
-    <div className="px-4 sm:px-[5vw] md:px-[7vw] lg:px-[9vw] bg-[#812537]">
+    <div className="px-4 sm:px-[5vw] md:px-[7vw] lg:px-[9vw] bg-[#8A1538]">
       <Navbar />
       <Routes>
         <Route path="/home" element={<Home />}></Route>
@@ -21,7 +20,6 @@ const App = () => {
         <Route path="/donor" element={<Donor />}></Route>
         <Route path="/contact" element={<Contact />}></Route>
         <Route path="/login" element={<Login />}></Route>
-        <Route path="/signup" element={<SignUp />}></Route>
         <Route path="/dashboard" element={<Dashboard />}></Route>
       </Routes>
       <Footer/>
