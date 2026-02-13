@@ -16,8 +16,8 @@ const Navbar = () => {
 
   return (
     <div
-      className={`fixed top-0 left-0 w-full z-50 transition-all duration-300 ${
-        scrolled ? "bg-white shadow-lg py-5" : "bg-transparent py-5"
+      className={`fixed top-0 left-0 w-full z-50 transition-all duration-300 py-4 ${
+        scrolled ? "bg-white shadow-lg py-5" : "bg-transparent"
       }`}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between font-medium">

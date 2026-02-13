@@ -151,6 +151,13 @@ const Login = () => {
                   placeholder="Confirm your password"
                   className="w-full pl-10 pr-4 py-2 border border-gray-900 rounded-lg focus:ring-1 focus:ring-[#494c52] outline-none"
                 />
+                <button
+                type="button"
+                onClick={() => setShowPass(!showPass)}
+                className="absolute right-3 text-gray-900"
+              >
+                {showPass ? <FaEye /> : <FaEyeSlash />}
+              </button>
               </div>
             </div>
           )}
