@@ -119,8 +119,8 @@ const Home = () => {
             <button className="bg-white text-[#723134] font-semibold py-4 px-8 rounded-lg shadow-lg">
               {landingPageContent[activeIndex].buttonText}
             </button>
-            <button className="bg-transparent border-2 border-white text-white py-4 px-8 rounded-lg">
-              Consultaions
+            <button className="bg-transparent border-2 border-white text-white hover:bg-white/10 font-medium py-4 px-8 rounded-lg">
+              Consultations
             </button>
           </div>
 
@@ -150,7 +150,7 @@ const Home = () => {
                 "url('https://images.unsplash.com/photo-1562709902-31c9a3b1ad5c?w=1200&auto=format&fit=crop&q=80')",
             }}
           >
-            <div className="absolute inset-0 bg-gradient-to-r from-[#723134]/30 via-[#b9393f]/40 to-[#723134]/30 " />
+            <div className="absolute inset-0 bg-gradient-to-r from-[#723134]/30 via-[#b9393f]/40 to-[#723134]/30 mix-blend-multiply" />
             <div className="w-full h-full flex items-center justify-center relative z-10">
               <div className="w-64 h-64 relative">
                 <div
