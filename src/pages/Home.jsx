@@ -4,6 +4,7 @@ import gsap from "gsap";
 import { IoMdCheckmarkCircleOutline } from "react-icons/io";
 import { MdKeyboardArrowLeft, MdKeyboardArrowRight } from "react-icons/md";
 import { landingPageContent } from "../constants/content";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   const [activeIndex, setActiveIndex] = useState(0);
@@ -116,9 +117,12 @@ const Home = () => {
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 mb-10">
-            <button className="bg-white text-[#723134] font-semibold py-4 px-8 rounded-lg shadow-lg">
+            <Link
+              to="/contact"
+              className="bg-white text-[#723134] hover:bg-gray-100 font-semibold py-4 px-8 rounded-lg shadow-lg"
+            >
               {landingPageContent[activeIndex].buttonText}
-            </button>
+            </Link>
             <button className="bg-transparent border-2 border-white text-white hover:bg-white/10 font-medium py-4 px-8 rounded-lg">
               Consultations
             </button>
