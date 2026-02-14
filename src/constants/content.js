@@ -48,7 +48,6 @@ export const processList = [
   },
 ];
 
-
 export const processSteps = [
   {
     id: 1,
@@ -68,7 +67,56 @@ export const processSteps = [
     id: 3,
     icon: HiOutlineShieldCheck,
     title: "Track Your Impact",
+    description: "Receive real-time updates on how your donation is being used",
+  },
+];
+
+export const featuredCampaigns = [
+  {
+    id: 1,
+    category: "Health",
+    img: "https://media.gettyimages.com/id/2120554524/photo/hospital-holding-hands-and-kid-in-bed-with-love-support-and-care-in-clinic-after-surgery.jpg?s=612x612&w=0&k=20&c=VSnDhLLZI1j4UdxTbGlyZOzMGCSo3w2Yj1CvaJsLmUA=",
+    organization: "Qatar Red Crescent",
+    title: "Medical Support for Families",
     description:
-      "Receive real-time updates on how your donation is being used",
+      "Provide essential medical care and medication for low-income families across Qatar",
+    fundedPercentage: 60,
+    raisedAmount: 450000,
+    goalAmount: 750000,
+    currency: "QAR",
+    badgeText: "Integrated with Sandi to prevent duplication",
+    isVerified: true,
+  },
+
+  {
+    id: 2,
+    category: "Education",
+    img: "https://images.unsplash.com/photo-1523240795612-9a054b0db644?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1200&q=80",
+    organization: "Education Above All",
+    title: "Digital Learning for Students",
+    description:
+      "Supply tablets and internet access for students in need to continue their education",
+    fundedPercentage: 57,
+    raisedAmount: 285000,
+    goalAmount: 500000,
+    currency: "QAR",
+    badgeText: "Integrated with Sandi to prevent duplication",
+    isVerified: true,
+  },
+
+  {
+    id: 3,
+    category: "Relief",
+    img: "https://media.gettyimages.com/id/530930529/photo/little-girl-trying-on-coat-at-winter-clothing-donation-drive.jpg?s=612x612&w=0&k=20&c=bFskyDKmdlt2JLs7uZ6m2rss4VZRkijhdkUs_CFVn-s=",
+    organization: "Qatar Charity",
+    title: "Winter Aid Package Distribution",
+    description:
+      "Provide warm clothing, blankets and heating equipment for families during winter months",
+    fundedPercentage: 78,
+    raisedAmount: 620000,
+    goalAmount: 800000,
+    currency: "QAR",
+    badgeText: "Integrated with Sandi to prevent duplication",
+    isVerified: true,
   },
 ];

@@ -1,6 +1,4 @@
 import { IoFlashOutline } from "react-icons/io5";
-import { FaMagnifyingGlass } from "react-icons/fa6";
-import { HiOutlineCreditCard, HiOutlineShieldCheck } from "react-icons/hi";
 import { processList, processSteps } from "../constants/content";
 import { Link } from "react-router-dom";
 
@@ -28,10 +26,12 @@ const Processes = () => {
           return (
             <div
               key={id}
-              className="relative flex flex-col items-center text-center"
+              className="relative flex flex-col items-center text-center hover:-translate-y-1.5 transition-transform duration-300"
             >
               <div className="mb-6">
-                <div className="w-20 h-20 rounded-2xl flex items-center justify-center mx-auto mb-4 relative shadow-lg bg-linear-to-br from-[#8a1538] to-[#6c102c]">
+                <div
+                  className={`w-20 h-20 rounded-2xl flex items-center justify-center mx-auto mb-4 relative shadow-lg ${id === 2 && "bg-gradient-to-br from-[#543D2E] to-[#3e2c21]"} bg-linear-to-br from-[#8a1538] to-[#6c102c]`}
+                >
                   <Icon className="h-10 w-10 text-white" />
 
                   <div className="absolute -top-3 -left-3 w-8 h-8 bg-white text-[#8a1538] rounded-full flex items-center justify-center font-bold border-2 border-[#8a1538] shadow-md">

@@ -7,6 +7,7 @@ import { landingPageContent } from "../constants/content";
 import { Link } from "react-router-dom";
 import CharitableCommunity from "../components/CharitableCommunity";
 import Processes from "../components/Processes";
+import VerifiedCampaings from "../components/VerifiedCampaings";
 
 const Home = () => {
   const [activeIndex, setActiveIndex] = useState(0);
@@ -232,7 +233,12 @@ const Home = () => {
 
       {/* Processes */}
       <section className="py-16 bg-gradient-to-b from-white to-[#f8f5f2]">
-        <Processes/>
+        <Processes />
+      </section>
+
+      {/* Verified Campgains */}
+      <section className="mb-6 bg-gradient-to-b from-[#f8f5f2] to-white">
+        <VerifiedCampaings />
       </section>
     </>
   );
