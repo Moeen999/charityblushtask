@@ -73,7 +73,7 @@ const CharitableCommunity = () => {
 
             <div className="text-center">
               <div className="text-2xl md:text-3xl font-bold text-[#8a1538]">
-                5241+
+                5,241+
               </div>
               <div className="text-xs text-[#543D2E] mt-1 font-medium">
                 Families Helped
@@ -155,7 +155,7 @@ const CharitableCommunity = () => {
           </div>
           <div className="h-6 w-px bg-[#e5ddd5]" />
           <div className="flex items-center space-x-2 bg-[#f8f5f2] px-3 py-1 rounded-lg border border-[#e5ddd5]">
-            <span class="text-xs text-[#543D2E]">Blockchain Verified</span>
+            <span className="text-xs text-[#543D2E]">Blockchain Verified</span>
           </div>
         </div>
       </div>

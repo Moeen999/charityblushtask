@@ -6,6 +6,7 @@ import { MdKeyboardArrowLeft, MdKeyboardArrowRight } from "react-icons/md";
 import { landingPageContent } from "../constants/content";
 import { Link } from "react-router-dom";
 import CharitableCommunity from "../components/CharitableCommunity";
+import Processes from "../components/Processes";
 
 const Home = () => {
   const [activeIndex, setActiveIndex] = useState(0);
@@ -225,9 +226,14 @@ const Home = () => {
       </div>
 
       {/* Charitable Community Page  */}
-      <div className="w-full bg-gradient-to-r from-[#f8f5f2] to-[#f0ebe6] py-12 md:py-16 border-t border-b border-[#e5ddd5]">
+      <section className="w-full bg-gradient-to-r from-[#f8f5f2] to-[#f0ebe6] py-12 md:py-16 border-t border-b border-[#e5ddd5]">
         <CharitableCommunity />
-      </div>
+      </section>
+
+      {/* Processes */}
+      <section className="py-16 bg-gradient-to-b from-white to-[#f8f5f2]">
+        <Processes/>
+      </section>
     </>
   );
 };
