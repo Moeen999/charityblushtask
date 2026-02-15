@@ -2,7 +2,8 @@ import { BsFillSendFill } from "react-icons/bs";
 import { FaUser } from "react-icons/fa";
 import { MdEmail, MdLocationOn } from "react-icons/md";
 import { FaHeading } from "react-icons/fa";
-import { contactInfo } from "../constants/content";
+import { contactInfo, supportInfo } from "../constants/content";
+import { FaQuestionCircle } from "react-icons/fa";
 
 const GetinTouch = () => {
   return (
@@ -116,7 +117,31 @@ const GetinTouch = () => {
             </ul>
           </div>
 
-          <div className="bg-white p-8 rounded-xl shadow-xl border border-gray-100 transition-all duration-300 hover:shadow-2xl"></div>
+          <div className="bg-white p-8 rounded-xl shadow-xl border border-gray-100 transition-all duration-300 hover:shadow-2xl">
+            <h2 className="text-2xl font-bold text-gray-900 mb-6 pb-3 border-b border-gray-200 flex items-center gap-2">
+              <FaQuestionCircle className="text-[#8A1538]" />
+              Quick Support
+            </h2>
+            <ul className="space-y-4">
+              {supportInfo.map((info, index) => {
+                const { title, icon: Icon, description } = info;
+                return (
+                  <li
+                    key={index}
+                    className="flex items-center gap-4 p-4 rounded-lg hover:bg-gray-50 cursor-pointer transition-all duration-300 group"
+                  >
+                    <div className="bg-[#F9D5E5] p-3 rounded-full group-hover:scale-110 transition-transform duration-300">
+                      <Icon className="text-[#8A1538] text-lg" />
+                    </div>
+                    <div>
+                      <h3 className="font-medium text-gray-900">{title}</h3>
+                      <p className="text-sm text-gray-600">{description}</p>
+                    </div>
+                  </li>
+                );
+              })}
+            </ul>
+          </div>
         </div>
       </div>
     </>

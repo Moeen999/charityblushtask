@@ -6,6 +6,9 @@ import { HiOutlineBuildingOffice } from "react-icons/hi2";
 import { IoMail } from "react-icons/io5";
 import { FaPhone } from "react-icons/fa";
 import { MdLocationOn } from "react-icons/md";
+import { FaFileAlt } from "react-icons/fa";
+import { HiMiniChatBubbleLeftRight } from "react-icons/hi2";
+import { BsFillQuestionCircleFill } from "react-icons/bs";
 
 export const landingPageContent = [
   {
@@ -191,5 +194,26 @@ export const contactInfo = [
     title: "Office",
     titleInfo: "123 Charity Street, City, Country",
     availability: "Visit by appointment only",
+  },
+];
+
+export const supportInfo = [
+  {
+    id: 1,
+    icon: FaFileAlt,
+    title: "Download Receipts",
+    description: "Access your donation records",
+  },
+  {
+    id: 2,
+    icon: HiMiniChatBubbleLeftRight,
+    title: "Donation History / FAQs",
+    description: "+123 456 7890",
+  },
+  {
+    id: 3,
+    icon: BsFillQuestionCircleFill,
+    title: "Need Help? Visit FAQs",
+    description: "Find answers to common questions",
   },
 ];
