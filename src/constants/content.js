@@ -1,6 +1,8 @@
 import { BsFillCheckCircleFill } from "react-icons/bs";
 import { FaMagnifyingGlass } from "react-icons/fa6";
 import { HiOutlineCreditCard, HiOutlineShieldCheck } from "react-icons/hi2";
+import { HiOutlineUsers } from "react-icons/hi";
+import { HiOutlineBuildingOffice } from "react-icons/hi2";
 
 export const landingPageContent = [
   {
@@ -118,5 +120,49 @@ export const featuredCampaigns = [
     currency: "QAR",
     badgeText: "Integrated with Sandi to prevent duplication",
     isVerified: true,
+  },
+];
+
+export const platformStakeholders = [
+  {
+    id: 1,
+    role: "Donors",
+    description: "Individuals and corporates united to make a difference.",
+    icon: HiOutlineUsers,
+    features: [
+      "Give with confidence through transparent tracking",
+      "Flexible payment options: bank transfer, QR code",
+      "Receive instant confirmations and real-time impact updates",
+      "Choose from health, education, relief campaigns",
+    ],
+    ctaText: "Start Donating",
+  },
+
+  {
+    id: 2,
+    role: "Charities",
+    description: "Organizations managing campaigns and donations",
+    icon: HiOutlineShieldCheck,
+    features: [
+      "Create and manage donation campaigns efficiently",
+      "Upload legal documents and licenses for verification",
+      "Track donations and distribution to beneficiaries",
+      "Generate automated reports for RACA compliance",
+    ],
+    ctaText: "Register Your Charity",
+  },
+
+  {
+    id: 3,
+    role: "Authority (RACA)",
+    description: "Regulatory body with oversight and compliance tools",
+    icon: HiOutlineBuildingOffice,
+    features: [
+      "Approve or reject charity campaigns",
+      "View all donations and campaigns in real-time",
+      "Receive automated compliance and financial reports",
+      "Track performance through KPI dashboards",
+    ],
+    ctaText: "Learn About Oversight",
   },
 ];

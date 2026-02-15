@@ -8,6 +8,7 @@ import { Link } from "react-router-dom";
 import CharitableCommunity from "../components/CharitableCommunity";
 import Processes from "../components/Processes";
 import VerifiedCampaings from "../components/VerifiedCampaings";
+import PlatformStakeholders from "../components/PlatformStakeholders";
 
 const Home = () => {
   const [activeIndex, setActiveIndex] = useState(0);
@@ -170,7 +171,7 @@ const Home = () => {
                   "url('https://images.unsplash.com/photo-1562709902-31c9a3b1ad5c?w=1200&auto=format&fit=crop&q=80')",
               }}
             >
-              <div className="absolute inset-0 bg-gradient-to-r from-[#723134]/30 via-[#b9393f]/40 to-[#723134]/30 mix-blend-multiply" />
+              <div className="absolute inset-0 bg-linear-to-r from-[#723134]/30 via-[#b9393f]/40 to-[#723134]/30 mix-blend-multiply" />
               <div className="w-full h-full flex items-center justify-center relative z-10">
                 <div className="w-64 h-64 relative">
                   <div
@@ -187,7 +188,7 @@ const Home = () => {
                   />
                   <div
                     ref={innerRef}
-                    className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-20 h-20 bg-gradient-to-br from-[#723134] to-[#b9393f] rounded-full flex items-center justify-center"
+                    className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-20 h-20 bg-linear-to-br from-[#723134] to-[#b9393f] rounded-full flex items-center justify-center"
                   >
                     <FaHandHoldingHeart className="text-[#F2EDE9] text-4xl" />
                   </div>
@@ -227,18 +228,23 @@ const Home = () => {
       </div>
 
       {/* Charitable Community Page  */}
-      <section className="w-full bg-gradient-to-r from-[#f8f5f2] to-[#f0ebe6] py-12 md:py-16 border-t border-b border-[#e5ddd5]">
+      <section className="w-full bg-linear-to-r from-[#f8f5f2] to-[#f0ebe6] py-12 md:py-16 border-t border-b border-[#e5ddd5]">
         <CharitableCommunity />
       </section>
 
       {/* Processes */}
-      <section className="py-16 bg-gradient-to-b from-white to-[#f8f5f2]">
+      <section className="py-16 bg-linear-to-b from-white to-[#f8f5f2]">
         <Processes />
       </section>
 
       {/* Verified Campgains */}
-      <section className="mb-6 bg-gradient-to-b from-[#f8f5f2] to-white">
+      <section className="mb-6 bg-linear-to-b from-[#f8f5f2] to-white">
         <VerifiedCampaings />
+      </section>
+
+      {/* StakeHolders */}
+      <section className="py-20 bg-linear-to-b from-gray-50 to-white">
+        <PlatformStakeholders/>
       </section>
     </>
   );
