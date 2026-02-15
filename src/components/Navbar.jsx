@@ -1,9 +1,10 @@
-import { Link, NavLink } from "react-router-dom";
+import { Link, NavLink, useLocation } from "react-router-dom";
 import { HiOutlineUsers } from "react-icons/hi";
 import { useEffect, useState } from "react";
 
 const Navbar = () => {
   const [scrolled, setScrolled] = useState(false);
+  const { pathname } = useLocation();
 
   useEffect(() => {
     const handleScroll = () => {
@@ -18,7 +19,11 @@ const Navbar = () => {
   return (
     <div
       className={`fixed top-0 left-0 w-full z-50 transition-all duration-300 py-4 ${
-        scrolled ? "bg-white shadow-lg py-5" : "bg-linear-to-br from-[#723134] via-[#8a1538] to-[#543D2E]"
+        scrolled
+          ? "bg-white shadow-lg py-5"
+          : pathname === "/contact"
+            ? "bg-linear-to-br from-[#723134]/60 to-[#5A2A2D]/50"
+            : "bg-linear-to-br from-[#723134] via-[#8a1538] to-[#543D2E]"
       }`}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between font-medium">
