@@ -5,7 +5,7 @@ import { FaHeading } from "react-icons/fa";
 import { contactInfo, supportInfo } from "../constants/content";
 import { FaQuestionCircle } from "react-icons/fa";
 
-const GetinTouch = () => {
+const GetInTouch = () => {
   return (
     <>
       <div className="text-center mb-16 ">
@@ -148,4 +148,4 @@ const GetinTouch = () => {
   );
 };
 
-export default GetinTouch;
+export default GetInTouch;

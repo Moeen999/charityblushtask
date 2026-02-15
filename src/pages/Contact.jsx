@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import GetinTouch from "../components/GetinTouch";
+import GetInTouch from "../components/GetInTouch"
 import Location from "../components/Location";
 
 const Contact = () => {
@@ -54,7 +54,7 @@ const Contact = () => {
 
       {/* GET IN TOUCH */}
       <div className="max-w-8xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
-        <GetinTouch />
+        <GetInTouch />
       </div>
 
       {/* LOCATION */}
