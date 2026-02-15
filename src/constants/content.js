@@ -3,6 +3,9 @@ import { FaMagnifyingGlass } from "react-icons/fa6";
 import { HiOutlineCreditCard, HiOutlineShieldCheck } from "react-icons/hi2";
 import { HiOutlineUsers } from "react-icons/hi";
 import { HiOutlineBuildingOffice } from "react-icons/hi2";
+import { IoMail } from "react-icons/io5";
+import { FaPhone } from "react-icons/fa";
+import { MdLocationOn } from "react-icons/md";
 
 export const landingPageContent = [
   {
@@ -164,5 +167,29 @@ export const platformStakeholders = [
       "Track performance through KPI dashboards",
     ],
     ctaText: "Learn About Oversight",
+  },
+];
+
+export const contactInfo = [
+  {
+    id: 1,
+    icon: IoMail,
+    title: "Email",
+    titleInfo: "support@charity.org",
+    availability: "Typically replies within 24 hours",
+  },
+  {
+    id: 2,
+    icon: FaPhone,
+    title: "Phone",
+    titleInfo: "+123 456 7890",
+    availability: "WhatsApp Available (9AM - 5PM)",
+  },
+  {
+    id: 3,
+    icon: MdLocationOn,
+    title: "Office",
+    titleInfo: "123 Charity Street, City, Country",
+    availability: "Visit by appointment only",
   },
 ];

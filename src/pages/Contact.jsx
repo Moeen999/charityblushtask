@@ -22,8 +22,8 @@ const Contact = () => {
         <h1 className="text-5xl md:text-7xl font-bold leading-tight tracking-tight font-['Playfair_Display',serif] [text-shadow:0px_4px_12px_rgba(0,0,0,0.3)]">
           We'd love to <span className="text-[#F2EDE9]">hear from you</span>
         </h1>
-        <div className="w-24 h-1 bg-linear-to-r from-[#543D2E] to-[#8A1538] mx-auto my-8 rounded-full aos-init aos-animate"></div>
-        <p className="mt-6 text-xl md:text-2xl text-[#F2EDE9] leading-relaxed max-w-2xl mx-auto aos-init aos-animate">
+        <div className="w-24 h-1 bg-linear-to-r from-[#543D2E] to-[#8A1538] mx-auto my-8 rounded-full"></div>
+        <p className="mt-6 text-xl md:text-2xl text-[#F2EDE9] leading-relaxed max-w-2xl mx-auto">
           Whether it's about donations, receipts, or support — our team is here
           to help you.
           <span className="font-semibold text-[#F2B8C6] bg-linear-to-r from-[#8A1538]/30 to-[#8A1538]/10 px-2 py-1 rounded-md">
@@ -31,7 +31,7 @@ const Contact = () => {
           </span>
           .
         </p>
-        <div className="mt-12 flex flex-row justify-center gap-6 items-center aos-init aos-animate">
+        <div className="mt-12 flex flex-row justify-center gap-6 items-center">
           <Link to="/campaign">
             <button className="relative bg-linear-to-r from-[#543D2E] to-[#8A1538] text-white px-7 py-4 sm:px-10 sm:py-4 rounded-xl shadow-lg hover:shadow-2xl hover:-translate-y-1 transition-all duration-300 group overflow-hidden">
               <div className="absolute inset-0 bg-linear-to-r from-[#8A1538] to-[#543D2E] opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none"></div>
