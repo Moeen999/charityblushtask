@@ -111,7 +111,7 @@ const Home = () => {
 
   return (
     <>
-      <div className="relative h-full w-full container mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-center py-16 lg:py-24">
+      <div className="relative h-full w-full container mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-center py-16 lg:py-24 bg-linear-to-br from-[#723134] via-[#8a1538] to-[#543D2E]">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center w-full max-w-7xl">
           {/* LEFT CONTENT content walii*/}
           <div ref={contentRef}>

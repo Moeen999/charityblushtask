@@ -18,7 +18,7 @@ const App = () => {
   return (
     <>
       <Navbar />
-      <div className=" relative min-h-screen w-full overflow-hidden bg-linear-to-br from-[#723134] via-[#8a1538] to-[#543D2E] pt-10 ">
+      <div className=" relative min-h-screen w-full overflow-hidden pt-10 ">
         <Routes>
           <Route path="/" element={<Home />}></Route>
           <Route path="/campaign" element={<Campaign />}></Route>

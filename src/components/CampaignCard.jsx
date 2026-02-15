@@ -16,7 +16,7 @@ const CampaignCard = ({
 }) => {
   const progressWidth = `${fundedPercentage}%`;
   return (
-    <div className="bg-red-50 rounded-2xl shadow-md overflow-hidden border border-[#e5ddd5] group">
+    <div className="bg-red-50 rounded-2xl shadow-md overflow-hidden border border-[#e5ddd5] group hover:-translate-y-1.5 transition-transform duration-300">
       <div className="h-48 relative overflow-hidden">
         <img
           src={img}
