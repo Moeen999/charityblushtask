@@ -109,13 +109,13 @@ const Navbar = () => {
             Login
           </Link>
 
-          <button className="px-4 py-2 bg-gradient-to-r from-[#821435] to-[#B62F5E] text-white text-sm font-medium rounded-md shadow-md hover:opacity-90 transition-opacity duration-300 cursor-pointer">
+          <button className="px-4 py-2 bg-linear-to-r from-[#821435] to-[#B62F5E] text-white text-sm font-medium rounded-md shadow-md hover:opacity-90 transition-opacity duration-300 cursor-pointer">
             Donate Now
           </button>
 
           <Link
             to="/dashboard"
-            className="px-4 py-2 bg-gradient-to-r from-[#63cc56] to-[#9b254e] text-white text-sm font-medium rounded-md shadow-md hover:opacity-90 transition-opacity duration-300"
+            className="px-4 py-2 bg-linear-to-r from-[#63cc56] to-[#9b254e] text-white text-sm font-medium rounded-md shadow-md hover:opacity-90 transition-opacity duration-300"
           >
             Dashboard
           </Link>

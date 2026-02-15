@@ -23,7 +23,7 @@ const CampaignCard = ({
           alt=""
           className="w-full h-full object-cover transform transition-transform duration-500 ease-out group-hover:scale-105"
         />
-        <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent"></div>
+        <div className="absolute inset-0 bg-linear-to-t from-black/40 to-transparent"></div>
         <div className="absolute top-4 left-4">
           <span className="px-3 py-1.5 rounded-full text-xs font-semibold bg-red-100 text-red-800">
             {category}
@@ -52,7 +52,7 @@ const CampaignCard = ({
           </div>
           <div className="w-full bg-[#e5ddd5] rounded-full h-2.5">
             <div
-              className="h-3 rounded-full bg-gradient-to-r from-[#723134] to-[#a84d51]"
+              className="h-3 rounded-full bg-linear-to-r from-[#723134] to-[#a84d51]"
               style={{ width: progressWidth }}
             ></div>
           </div>

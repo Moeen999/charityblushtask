@@ -30,7 +30,7 @@ const Processes = () => {
             >
               <div className="mb-6">
                 <div
-                  className={`w-20 h-20 rounded-2xl flex items-center justify-center mx-auto mb-4 relative shadow-lg ${id === 2 && "bg-gradient-to-br from-[#543D2E] to-[#3e2c21]"} bg-linear-to-br from-[#8a1538] to-[#6c102c]`}
+                  className={`w-20 h-20 rounded-2xl flex items-center justify-center mx-auto mb-4 relative transition-transform duration-300 hover:scale-105 shadow-lg ${id === 2 && "bg-linear-to-br from-[#543D2E] to-[#3e2c21]"} bg-linear-to-br from-[#8a1538] to-[#6c102c]`}
                 >
                   <Icon className="h-10 w-10 text-white" />
 
@@ -79,7 +79,7 @@ const Processes = () => {
             </ul>
           </div>
           <div className="md:w-1/3 flex justify-center">
-            <div className="w-64 h-64 bg-gradient-to-br from-[#8a1538] to-[#543D2E] rounded-2xl flex items-center justify-center p-6 text-white text-center shadow-lg">
+            <div className="w-64 h-64 bg-linear-to-br from-[#8a1538] to-[#543D2E] rounded-2xl flex items-center justify-center p-6 text-white text-center shadow-lg">
               <div>
                 <div className="text-5xl font-bold mb-2">100%</div>
                 <div className="text-lg font-medium">

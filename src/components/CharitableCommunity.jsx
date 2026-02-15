@@ -31,14 +31,14 @@ const CharitableCommunity = () => {
           </div>
           <div className="flex flex-col md:flex-row items-center justify-center space-y-4 md:space-y-0 md:space-x-6">
             <div className="flex flex-col items-center">
-              <div className="w-16 h-16 bg-gradient-to-br from-[#8a1538] to-[#6c102c] rounded-xl flex items-center justify-center text-white font-bold text-xs shadow-md">
+              <div className="w-16 h-16 bg-linear-to-br from-[#8a1538] to-[#6c102c] rounded-xl flex items-center justify-center text-white font-bold text-xs shadow-md">
                 RACA
               </div>
               <span>Regulatory Body</span>
             </div>
             <div className="h-12 w-px bg-[#e5ddd5] hidden md:block"></div>
             <div className="flex flex-col items-center">
-              <div className="w-16 h-16 bg-gradient-to-br from-[#8a1538] to-[#6c102c] rounded-xl flex items-center justify-center text-white font-bold text-xs shadow-md">
+              <div className="w-16 h-16 bg-linear-to-br from-[#8a1538] to-[#6c102c] rounded-xl flex items-center justify-center text-white font-bold text-xs shadow-md">
                 SANDI
               </div>
               <span>National Pateform</span>

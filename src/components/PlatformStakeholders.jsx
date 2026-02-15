@@ -36,7 +36,7 @@ const PlatformStakeholders = () => {
           return <RoleCard {...roles} key={roles.id} />;
         })}
       </div>
-      <div className="mt-20 bg-gradient-to-r from-[#8A1538] to-[#6A0F2A] rounded-2xl p-10 md:p-14 text-white overflow-hidden relative">
+      <div className="mt-20 bg-linear-to-r from-[#8A1538] to-[#6A0F2A] rounded-2xl p-10 md:p-14 text-white overflow-hidden relative">
         <div className="absolute top-0 right-0 w-full h-full opacity-10"></div>
         <div className="flex flex-col md:flex-row items-center relative z-10">
           <div className="md:w-2/3 mb-8 md:mb-0 md:pr-10">
@@ -58,7 +58,7 @@ const PlatformStakeholders = () => {
                 return (
                   <li key={index} className="flex items-start">
                     <div className="flex gap-2.5 mt-0.5 items-center">
-                      <div className="flex-shrink-0 w-6 h-6 rounded-full bg-white/20 flex items-center justify-center">
+                      <div className="shrink-0 w-6 h-6 rounded-full bg-white/20 flex items-center justify-center">
                         <Icon className="h-4 w-4 text-[#8A1538]" />
                       </div>
                       <span className="text-lg">{text}</span>
