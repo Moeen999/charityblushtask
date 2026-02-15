@@ -50,7 +50,7 @@ const Location = () => {
                 to="https://maps.google.com/?q=123 Business Avenue, Melbourne"
                 target="_blank"
                 rel="noopener noreferrer"
-                class="px-5 py-2.5 bg-[#8A1538] text-white rounded-lg font-medium hover:bg-[#6A0F2A] transition-colors duration-300 text-sm shadow-md hover:shadow-lg"
+                className="px-5 py-2.5 bg-[#8A1538] text-white rounded-lg font-medium hover:bg-[#6A0F2A] transition-colors duration-300 text-sm shadow-md hover:shadow-lg"
               >
                 Get Directions
               </Link>

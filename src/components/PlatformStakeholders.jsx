@@ -23,7 +23,7 @@ const PlatformStakeholders = () => {
       <div className="text-center max-w-3xl mx-auto mb-16 relative">
         <div className="absolute -top-4 left-1/2 transform -translate-x-1/2 w-24 h-1 bg-[#8A1538] rounded-full"></div>
         <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-          A Platform for <span class="text-[#8A1538]">Everyone</span>
+          A Platform for <span className="text-[#8A1538]">Everyone</span>
         </h2>
         <p className="text-xl text-gray-600 leading-relaxed">
           Designed to serve all stakeholders in Qatar's charitable ecosystem

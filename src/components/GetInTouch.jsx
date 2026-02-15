@@ -25,7 +25,7 @@ const GetinTouch = () => {
               <BsFillSendFill className="text-white" />
               Send us a Message
             </h2>
-            <p class="text-[#F9D5E5] mt-1">We'll respond as soon as possible</p>
+            <p className="text-[#F9D5E5] mt-1">We'll respond as soon as possible</p>
           </div>
 
           <form className="p-8 space-y-6">
